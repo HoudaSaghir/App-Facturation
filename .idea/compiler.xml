@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Client-service" />
+        <module name="Produit-service" />
+        <module name="Gatway" />
+        <module name="Facture-service" />
+        <module name="Discovery-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Client-service" target="17" />
+      <module name="Discovery-service" target="17" />
+      <module name="Facture-service" target="17" />
+      <module name="Gatway" target="17" />
+      <module name="Produit-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Client-service" options="-parameters" />
+      <module name="Discovery-service" options="-parameters" />
+      <module name="Facture-service" options="-parameters" />
+      <module name="Gatway" options="-parameters" />
+      <module name="Produit-service" options="-parameters" />
+    </option>
+  </component>
+</project>

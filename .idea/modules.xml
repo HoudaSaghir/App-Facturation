@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/App-Facturation.iml" filepath="$PROJECT_DIR$/App-Facturation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Client-service/Client-service.iml" filepath="$PROJECT_DIR$/Client-service/Client-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Discovery-service/Discovery-service.iml" filepath="$PROJECT_DIR$/Discovery-service/Discovery-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Facture-service/Facture-service.iml" filepath="$PROJECT_DIR$/Facture-service/Facture-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gatway/Gatway.iml" filepath="$PROJECT_DIR$/Gatway/Gatway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Produit-service/Produit-service.iml" filepath="$PROJECT_DIR$/Produit-service/Produit-service.iml" />
+    </modules>
+  </component>
+</project>
